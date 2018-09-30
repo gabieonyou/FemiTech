@@ -1,0 +1,99 @@
+/* PAGINA DE CONTATO */
+
+
+
+#nav {
+    background: purple;
+}
+
+#titunav {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#titunav:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav-link:hover {
+    color: violet;
+}
+
+.nav-link {
+    color: white;
+    font-size: 15px;
+
+}
+
+#Participe {
+    margin-right: -600px;
+
+}
+
+#sobre {
+    margin-right:-600px;
+}
+
+.container-5 {
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#iconcontato {
+
+    font-size: 80px;
+
+}
+
+.contatarachar {
+  
+    font-size: 55px;
+    justify-content: center;
+
+}
+
+.maps {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#mapa {
+    width: 75%;
+}
+
+
+
+.rodape {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#footer {
+
+    font-size: 20px;
+    color: white;
+    margin: 8px;
+}
+
+#f {
+    color: white;
+    margin-top: 10px;
+    position: left;
+}
+/* 
+#mapa{
+    justify-content: center;
+} */

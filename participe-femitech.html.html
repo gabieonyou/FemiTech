@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href= "img/female-symbol.png" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>FemiTech</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link href="css/participe.css" rel="stylesheet">
+    <script defer src="js/sexo.js"></script>
+	</head>
+<body>
+  <nav class="navbar" id="nav">
+    <div class="container-fluid">
+        <a class="nomenav" href="index.html" id= "titunav">FemiTech</a>
+        <a class="nav-link" href="index.html" id="sobre"> Sobre nós</a>
+        <a class="nav-link" href="participe-femitech.html.html" id="Participe">Participe</a>
+        <a class="nav-link" href="contato.html" id="Contato">Contato</a>
+        </nav>
+
+    <br>
+
+    <h1>Participe dos nossos cursos!</h1>
+    <!-- <form>
+       Primeiro nome: 
+      <input type="text" name="firstname">
+    Último nome: 
+     <input type="text" name="lastname">
+     <br>
+     RG:
+     <input type="text" name="">
+     <br>
+     Endereço: 
+     <input type="text" name="">
+     <br>
+     Data de nascimento:
+     <input type="text" name="">
+     <br>
+     Escolaridade:
+     <form name="form5" 
+        method="post" action="">
+        <select name="select">
+        <option value="item_1">
+       Ensino Fundamental I</option>
+        <option value="item_1">
+        Ensino Fundamental II</option>
+        <option value="item_1">
+        Ensino Médio</option>
+        <option value="item_1">
+        Superior</option>
+</select>
+
+
+
+     </form> -->
+
+     <!--FORMULÁRIO DE CADASTRO-->
+
+     <br>
+     <div id="cadastro">
+        <form method="post" action=""> 
+          <h2>Cadastro</h2> 
+          <br>
+          <br>
+           
+          <p> 
+            <label for="nome_cad">Nome Completo:</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="" />
+          </p>
+           
+
+          <p> 
+            <label for="nome_cad">RG:</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="" />
+          </p>
+          <p> 
+            <label for="nome_cad">CPF:</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="" />
+          </p>
+          <p> 
+            <label for="nome_cad">Data de Nascimento:</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="" />
+          </p>
+          <p> 
+            <label for="nome_cad">Endereço:</label>
+          <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="" />
+          </p>
+          <p> 
+            <label for="nome_cad">CEP:</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="" />
+          </p>
+          <p> 
+            <label for="email_cad">E-mail:</label>
+            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@femitech.com"/> 
+          </p>
+
+          Escolaridade:
+     <form name="form5" 
+        method="post" action="">
+        <select name="select">
+        <option value="item_1">
+        Ensino Fundamental II</option>
+        <option value="item_1">
+        Ensino Médio</option>
+        <option value="item_1">
+        Curso Técnico</option>
+        <option  value="item_1">
+        Superior</option>
+</select>
+  <br>
+  <form action="/action_page.php"><br> <br>
+    <h2>Cursos:</h2>
+    <br>
+    
+    <input type="checkbox" class= "cursos" name="front-end" value="Front-end"> Desenvolvimento de Front-end <br>
+    <input type="checkbox" class= "cursos" name="vehicle2" value="Car"> Desenvolvimento Web Full Stack<br>
+    <input type="checkbox" class= "cursos" name="vehicle3" value="Boat" checked> Metodologia de Design Thinking<br>
+    <input type="checkbox" class= "cursos" name="front-end" value="Front-end"> UX Design<br>
+    <input type="checkbox" class ="cursos" name="front-end" value="Front-end"> Data Driven Market<br>
+    <input type="checkbox" class= "cursos" name="front-end" value="Front-end"> Gestão de Projetos<br>
+    <!-- <input type="submit" value="Submit"> -->
+  </form>
+ <br><br>
+  <h2>Sexo:</h2><br>
+  <form name="form5" 
+    method="post" action="">
+    <select id="sexo_select" name="select" onchange="verificarSexo()">
+    <option value="item_1">
+    Feminino</option>
+    <option value="item_1">
+    Masculino</option>
+</select></form>
+
+
+
+  <br>
+  <form action="/action_page.php" id="usrform">
+    <br>
+    Por que você gostaria de fazer parte da Femitech?
+  
+  </form>
+  <br>
+  <textarea rows="4" cols="50" name="comment" form="usrform">
+  </textarea>
+  <br>
+  <br>
+  <input type="submit">
+  <br>
+</form>
+   
+    </div>
+  </div>  
+  <br>
+  <br>
+
+  <footer class="rodape">
+    <h6 id="f">FemiTech© </h6 >
+
+    <i class="fab fa-facebook" id="footer"></i>
+    <i class="fab fa-twitter-square" id="footer"></i>
+    <i class="fab fa-instagram" id="footer"></i>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+
+
+/* PARTICIPE */
+
+#nav {
+    background: purple;
+}
+
+#titunav {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#titunav:hover {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav-link:hover {
+    color:violet;
+}
+.nav-link {
+    color: white;
+    font-size: 15px;
+
+}
+
+#Participe {
+    margin-right: -600px;
+
+}
+
+#sobre {
+    margin-right:-600px;
+}
+
+.rodape {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#footer {
+
+    font-size: 20px;
+    color: white;
+    margin: 8px;
+}
+
+#f {
+    color: white;
+    margin-top: 10px;
+    position: left;
+}
+
+
+#cadastro{
+    margin-left: 20%;
+
+}
+
+
+label{
+    width: 150px; 
+}
+
+input{
+    width: 250px;
+
+}
+.cursos{
+    width: 10px;
+}
+.sexo{
+    width: 10px;
+}
+
